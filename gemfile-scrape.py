@@ -1,7 +1,7 @@
 import github
 import base64
 
-g = github.Github("eaf80b34030dc10399fe38d1c6da0459f3929715")
+g = github.Github("GITHUB_TOKEN")
 
 org = g.get_organization("18F")
 orgRepos = org.get_repos()
